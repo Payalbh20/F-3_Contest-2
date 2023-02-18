@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}
+.process-page {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.orderDetail {
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.orderDetail ol {
+  margin-left: 25px;
+}
+.orderDetail ol li {
+  padding: 5px;
+}
+.payment {
+  font-size: 1.4rem;
+  color: #444444;
+  padding: 10px;
+}
+.paystat {
+  color: #008000;
+  padding: 10px;
+}
+.paySuccess {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
